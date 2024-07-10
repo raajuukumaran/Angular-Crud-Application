@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "emlopees": [
+    {
+      "id": "1",
+      "firstName": "Rajesh",
+      "lastName": "kumar",
+      "email": "rraajuukumaran@gmail.com",
+      "dob": "2002-04-10T18:30:00.000Z",
+      "gender": "Male",
+      "education": "UG",
+      "company": "Unysys",
+      "experience": 1,
+      "package": 6
+    },
+    {
+      "id": "2",
+      "firstName": "Swetha",
+      "lastName": "R",
+      "email": "sr@gmail.com",
+      "dob": "2003-04-29T18:30:00.000Z",
+      "gender": "Female",
+      "education": "UG",
+      "company": "Wipro",
+      "experience": 0,
+      "package": 8
+    },
+    {
+      "id": "3",
+      "firstName": "Hari",
+      "lastName": "Haran",
+      "email": "hh@gmail.com",
+      "dob": "2000-02-03T18:30:00.000Z",
+      "gender": "Male",
+      "education": "UG",
+      "company": "Capcut",
+      "experience": 2,
+      "package": 8
+    }
+  ]
+}
