@@ -14,7 +14,7 @@ import { CoreService } from './core/core.service';
 })
 export class AppComponent implements OnInit {
   title = 'Crud-App';
-  displayedColumns: string[] = ['id', 'firstName', 'lastName', 'email', 'dob','gender','education','company','experience','package','action'];
+  displayedColumns: string[] = ['id', 'firstName', 'lastName', 'email','gender','education','company','experience','package','action'];
   dataSource!: MatTableDataSource<any>;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
@@ -79,4 +79,5 @@ export class AppComponent implements OnInit {
       }
      })
   }
+  
 }

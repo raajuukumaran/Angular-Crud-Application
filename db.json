@@ -42,7 +42,7 @@
     {
       "id": "2",
       "firstName": "Swetha",
-      "lastName": "R",
+      "lastName": "Rajesh",
       "email": "sr@gmail.com",
       "dob": "2003-04-29T18:30:00.000Z",
       "gender": "Female",
@@ -61,7 +61,7 @@
       "education": "UG",
       "company": "Capcut",
       "experience": 2,
-      "package": 8
+      "package": 4
     }
   ]
 }

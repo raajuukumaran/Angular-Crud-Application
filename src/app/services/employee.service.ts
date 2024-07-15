@@ -24,4 +24,7 @@ export class EmployeeService {
     return this._http.delete(`http://localhost:3000/emlopees/${id}`);
 
   }
+  getRecycleBin(): Observable<any> {
+    return this._http.get('http://localhost:3000/emlopees/recycle-bin');
+  }
 }
